@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("Assets/images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    font-family: 'Poppins', sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 22px;
+    padding: 0 30px;
+}
+
+.text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero :nth-child(4){
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.hero :nth-child(5){
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btns{
+    display: flex;
+    gap: 6px;
+
+}
+
+.seperation{
+    height: 6px;
+    background-color: rgb(43, 42, 42);
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(29, 24, 24, 0.233);
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgba(192, 169, 169, 0.69);
+    cursor: pointer;
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+
+.main input{
+    padding: 7px 101px 7px 14px;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    font-weight: 900;
+    border-radius: 1px solid rgba(242, 235, 235, 0.5);
+}
